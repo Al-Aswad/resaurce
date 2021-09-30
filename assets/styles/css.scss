@@ -1,0 +1,13 @@
+// .header-inner {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     height: 80px;
+// }
+.btn-primary {
+    background-color: #E21F26;
+    border: none;
+    &:hover {
+        background-color: #f83a40;
+    }
+}
