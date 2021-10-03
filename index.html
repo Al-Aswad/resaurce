@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Resaurce</title>
+    <link rel="shortcut icon" href="assets/images/logo/logo.png" type="image/x-icon">
     <!-- bootstrap css -->
     <link rel="stylesheet" href="assets/libraries/bootstrap/css/bootstrap.min.css" />
     <!-- swiper -->
@@ -16,10 +17,12 @@
 
 <body>
     <header>
-        <div class="container">
+        <div class="container-fluid px-5">
             <div class="header-inner d-flex justify-content-between align-items-center">
                 <div class="brand d-flex align-items-center ">
-                    <h1>Logo</h1>
+                    <!-- <div class="logo m-0 p-0"> -->
+                    <img src="assets/images/logo/logo.png" alt="" width="50px">
+                    <!-- </div> -->
                     <div class="brand-name ml-2 d-none d-md-block">
                         <h6>Resaurce Teknologi Indonesia</h6>
                     </div>
@@ -29,10 +32,19 @@
                     <div class="header-nav-inner d-flex align-items-center">
                         <ul class="link-list link-reset d-flex justify-content-between list-unstyled mt-3">
                             <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Project</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link" href="#">Service</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About US</a>
+                                <a class="nav-link" href="#">WorkFlow</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contact</a>
@@ -46,75 +58,56 @@
                 </nav>
             </div>
         </div>
-    </header>
-    <main>
-        <div class="container container-main-header">
-            <!-- Swiper -->
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide" style="background: url('assets/images/bg.jpg'); background-size:cover ;">
-                        <div class="container">
-                            <div class="slide-content" style="width: 100vh;">
-                                <div class="slider-container">
-                                    <h4 class="slider-sub-title">Why Us?</h4>
-                                    <div class="animated-area">
-                                        <h1 class="slider-title">Everything, We Upascale..!</h1>
-                                        <p>Resauce adalah tim yang bergerak dibidang pengembangan website, dan aplikasi.</p>
-                                        <p>Kami membantu klien kami dengan memberikan solusi kreatif bagi permasalahan digital yang sedang dihadapi.</p>
-                                        <p>Jangan ragu untuk berbagi cerita dengan kami, Resauce akan membantu mewujudkannya</p>
-                                        <a href="#" class="font-weight-bold btn-primary px-5 py-2">Hire Us!</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide" style="background: url('assets/images/15389508190_c1492f0447_o.jpg'); background-size:cover ;">
-                        <div class="container">
-                            <div class="slide-content" style="width: 100vh;">
-                                <div class="slider-container">
-                                    <h4 class="slider-sub-title">Slide 2</h4>
-                                    <div class="animated-area">
-                                        <h1 class="slider-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-                                        <p>Resauce adalah tim yang bergerak dibidang pengembangan website, dan aplikasi.</p>
-                                        <p>Kami membantu klien kami dengan memberikan solusi kreatif bagi permasalahan digital yang sedang dihadapi.</p>
-                                        <p>Jangan ragu untuk berbagi cerita dengan kami, Resauce akan membantu mewujudkannya</p>
-                                        <a href="#" class="slider-buttton">Start Projects</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide" style="background: url('assets/images/32764885503_e958014edd_o.jpg'); background-size:cover ;">
-                        <div class="container">
-                            <div class=" slide-content" style="width: 100vh;">
-                                <div class="slider-container">
-                                    <h4 class="slider-sub-title">Slide 3</h4>
-                                    <div class="animated-area">
-                                        <h1 class="slider-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-                                        <a href="#" class="slider-buttton">Start Projects</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <div class="container-fluid px-5 container-main-header">
+            <div class="header-main" style="background: url('assets/images/bg.jpg'); background-size:cover ;">
+                <div class="header-content">
+                    <h2 class="h2 font-weight-bold text-primary mb-5">Everything, We Upascale..!</h2>
+                    <p>Resauce adalah tim yang bergerak dibidang pengembangan website, dan aplikasi.</p>
+                    <p>Kami membantu klien kami dengan memberikan solusi kreatif bagi permasalahan digital yang sedang dihadapi.</p>
+                    <p>Jangan ragu untuk berbagi cerita dengan kami, Resauce akan membantu mewujudkannya</p>
+                    <a href="#" class="btn btn-primary px-3 mt-2">Hire Us !</a>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
+                <img src="assets/images/bg.jpg" alt="" style="background-size: cover;">
             </div>
         </div>
-
-
-
-        <div class="container">
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid px-5">
             <section class="section section-portofolio">
-                <div class="container">
-                    <h2 class="section-title text-primary font-weight-bold">Featured Projects</h2>
-                    <div class="row justify-content-between mt-5">
-                        <div class="col-6 col-md-4 mb-4">
-                            <div class="card" style="width: 22rem;">
+                <div class="row justify-content-between mb-5">
+                    <h2 class="col text-primary font-weight-bold">Featured Projects</h2>
+                    <div class="col">
+                        <button class="btn btn-primary float-right">Lihat Semua</button>
+                    </div>
+                </div>
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="assets/images/portofolio/hitcelebes.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/portofolio/hitcelebes-dashboard.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/portofolio/hitcelebes.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination" style="margin-top: 100px;"></div>
+                </div>
+            </section>
+            <section class="section-layanan mb-5">
+                <div class="mb-5">
+                    <h2 class="mb-3 text-primary font-weight-bold">Layanan Kami</h2>
+                    <p>We can provide websites of your needs, such as:</p>
+                </div>
+                <div class="layanan-content">
+                    <div class="row ">
+                        <div class="col-12 col-md-4 justify-content-center d-flex">
+                            <div class="card mb-4" style="width: 22rem;">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title 1</h5>
+                                    <h5 class="card-title">Card title</h5>
                                     <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <a href="#" class="card-link">Card link</a>
@@ -122,10 +115,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 col-md-4 mb-4">
-                            <div class="card" style="width: 22rem;">
+                        <div class="col-12 col-md-4 justify-content-center d-flex">
+                            <div class="card mb-4" style="width: 22rem;">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title 2</h5>
+                                    <h5 class="card-title">Card title</h5>
                                     <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <a href="#" class="card-link">Card link</a>
@@ -133,10 +126,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 col-md-4 mb-4">
-                            <div class="card" style="width: 22rem;">
+                        <div class="col-12 col-md-4 justify-content-center d-flex">
+                            <div class="card mb-4" style="width: 22rem;">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title 3</h5>
+                                    <h5 class="card-title">Card title</h5>
                                     <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <a href="#" class="card-link">Card link</a>
@@ -144,10 +137,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 col-md-4 mb-4">
-                            <div class="card" style="width: 22rem;">
+                        <div class="col-12 col-md-4 justify-content-center d-flex">
+                            <div class="card mb-4" style="width: 22rem;">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title 3</h5>
+                                    <h5 class="card-title">Card title</h5>
                                     <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <a href="#" class="card-link">Card link</a>
@@ -155,10 +148,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 col-md-4 mb-4">
-                            <div class="card" style="width: 22rem;">
+                        <div class="col-12 col-md-4 justify-content-center d-flex">
+                            <div class="card mb-4" style="width: 22rem;">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title 3</h5>
+                                    <h5 class="card-title">Card title</h5>
                                     <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <a href="#" class="card-link">Card link</a>
@@ -166,10 +159,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 col-md-4 mb-4">
-                            <div class="card" style="width: 22rem;">
+                        <div class="col-12 col-md-4 justify-content-center d-flex">
+                            <div class="card mb-4" style="width: 22rem;">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title 3</h5>
+                                    <h5 class="card-title">Card title</h5>
                                     <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <a href="#" class="card-link">Card link</a>
@@ -180,10 +173,123 @@
                     </div>
                 </div>
             </section>
+            <section class="section-layanan mb-5">
+                <div class="mb-5">
+                    <h2 class="mb-3 text-primary font-weight-bold">WorkFlow</h2>
+                    <p>We can provide websites of your needs, such as:</p>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4 justify-content-center d-flex">
+                        <div class="card mb-4" style="width: 22rem;">
+                            <img class="card-img-top" src="..." alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Discuss</h5>
+                                <p class="card-text">Setiap project memiliki masalah untuk diselesaikan dan tujuan yang akan dicapai. Kami akan berdiskusi bersama mitra kami agar tercapai gambaran jelas terhadap project yang akan di jalankan.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 justify-content-center d-flex">
+                        <div class="card mb-4" style="width: 22rem;">
+                            <img class="card-img-top" src="..." alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Discuss</h5>
+                                <p class="card-text">Setiap project memiliki masalah untuk diselesaikan dan tujuan yang akan dicapai. Kami akan berdiskusi bersama mitra kami agar tercapai gambaran jelas terhadap project yang akan di jalankan.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 justify-content-center d-flex">
+                        <div class="card mb-4" style="width: 22rem;">
+                            <img class="card-img-top" src="..." alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Discuss</h5>
+                                <p class="card-text">Setiap project memiliki masalah untuk diselesaikan dan tujuan yang akan dicapai. Kami akan berdiskusi bersama mitra kami agar tercapai gambaran jelas terhadap project yang akan di jalankan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-pricing">
+                <div class="mb-5">
+                    <h2 class="mb-3 text-primary font-weight-bold">Kategori Service Kami</h2>
+                </div>
+                <div class="pricing-centent">
+                    <div class="row">
+                        <div class="col-12 col-md-4 justify-content-center d-flex">
+                            <div class="card mb-4" style="width: 22rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title text-primary">Starter</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted text-primary">Mulai dari 5000000</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 justify-content-center d-flex">
+                            <div class="card mb-4" style="width: 22rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title text-primary">Standard</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted text-primary">Mulai dari 10000000</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 justify-content-center d-flex">
+                            <div class="card mb-4" style="width: 22rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title text-primary">Premium</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted text-primary">Mulai dari 15000000</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-
-
     </main>
+    <hr class="m-5">
+    <footer>
+        <div class="container container-footer mb-3">
+            <div class="row justify-content-lg-between">
+                <div class="col-md-4">
+                    <h2>Resause</h2>
+                    <p>Butuh Tim untuk memvisualisasikan ide anda? diskusilah dengan kami !</p>
+                    <p>Beritahu kami apa yang anda pikirkan, apa yang anda kerjakan dan bagaimana kami dapat membantu anda mewujudkan goal dan target anda.</p>
+
+                    <div class="row our-us mb-4">
+                        <div class="col">
+                            <h6>Team Kami</h6>
+                            <img src="" alt="pofile" width="1rem">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h2>Links</h2>
+                    <p>Home</p>
+                    <p>Karya Terbaru</p>
+                    <p>Layanan</p>
+                    <p>WorkFlow</p>
+                    <p>Price</p>
+                    <p>About</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h2>Kontak Kami</h2>
+                    <p> <span>Icon</span> Instagram</p>
+                    <p> <span>Icon</span>WhatsApp</p>
+                    <p> <span>Icon</span>Email</p>
+                </div>
+            </div>
+        </div>
+        <hr class="mb-4">
+        <div class="container copyright mb-4 align-items-lg-center d-flex justify-content-center">
+            <h6 class="text-muted">© 2021 Resaurce. All Rights Reserved.</h6>
+        </div>
+    </footer>
 
 
 
@@ -217,26 +323,47 @@
     <script src="assets/libraries/swiper-js/swiper-bundle.min.js "></script>
     <!-- Initialize Swiper -->
     <script>
-        $(document).ready(function() {
-            //initialize swiper when document ready
-            var mySwiper = new Swiper('.mySwiper', {
-                loop: true,
-                spaceBetween: 50,
-                speed: 1000,
-                effect: 'fade',
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-                // autoplay: {
-                //     delay: 5000,
-                //     disableOnInteraction: false,
-                // },
-                pagination: {
-                    el: ".swiper-pagination ",
-                    clickable: true,
-                },
-            })
+        // $(document).ready(function() {
+        //     //initialize swiper when document ready
+        //     var mySwiper = new Swiper('.mySwiper', {
+        //         loop: true,
+        //         spaceBetween: 50,
+        //         speed: 1000,
+        //         effect: 'fade',
+        //         navigation: {
+        //             nextEl: '.swiper-button-next',
+        //             prevEl: '.swiper-button-prev',
+        //         },
+        //         // autoplay: {
+        //         //     delay: 5000,
+        //         //     disableOnInteraction: false,
+        //         // },
+        //         pagination: {
+        //             el: ".swiper-pagination ",
+        //             clickable: true,
+        //         },
+        //     })
+        // });
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            loop: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: false,
+            },
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
         });
     </script>
 </body>
